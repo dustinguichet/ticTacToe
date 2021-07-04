@@ -30,3 +30,13 @@ h1 {
     font-size: 20px;
     cursor: pointer;
 }
+
+/* Main Container */
+#main {
+    text-align: center;
+}
+
+/* Game instruction Text */
+#ins {
+    
+}
