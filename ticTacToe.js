@@ -1,7 +1,7 @@
 // Function Called Whenever User Tab On Any Box
 function myfunc() {
 
-    // Setting DOM To All Boxes Or Input Fields
+// Setting DOM To All Boxes Or Input Fields
     var b1, b1, b3, b4, b5, b6, b7, b8, b9;
     b1 = document.getElementById("b1").value;
     b2 = document.getElementById("b2").value;
@@ -13,8 +13,8 @@ function myfunc() {
     b8 = document.getElementById("b8").value;
     b9 = document.getElementById("b9").value;
 
-    /** Checking If Player X Won Or Not And After
-        That Disabled All Other Fields **/
+/** Checking If Player X Won Or Not 
+    After That Disabled All Other Fields **/
     if ((b1 == 'x' || b1 == 'X') && 
         (b2 == 'x' || b2 == 'X') &&
         (b3 == 'x' || b3 == 'X')) {
@@ -128,10 +128,10 @@ function myfunc() {
         window.alert('Player X won');
     }
 
-    /* Checking Player X Finished
-       Checking Player 0 Starts,
-       Is Player 0 Won Or Not
-       After That Disable All Other Fields */
+/* Checking Player X Finished
+   Checking Player 0 Starts,
+   Did Player 0 Won Or Not
+   After That Disable All Other Fields */
 
     else if ((b1 == '0' || b1 == '0') && 
         (b2 == '0' || b2 == '0') && 
@@ -246,8 +246,8 @@ function myfunc() {
         window.alert('Player 0 won');
     }
     
-    /* Checking Player 0 Finished
-       Checking For Tie */
+/* Checking Player 0 Finished
+   Checking For Tie */
     else if ((b1 == 'X' || b1 == '0') && 
         (b2 == 'X' || b2 == '0') && 
         (b3 == 'X' || b3 == '0') && 
@@ -264,7 +264,7 @@ function myfunc() {
    }
    else {
 
-    // Print Results
+// Print Results
         if (flag == 1) {
             document.getElementById('print')
                 .innerHTML = "Player X Turn";
@@ -275,3 +275,5 @@ function myfunc() {
         }
    }
 }
+
+// Function To Reset Game
