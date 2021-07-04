@@ -14,7 +14,7 @@ h1 {
     width: 80px;
     height: 52px;
     margin: auto;
-    border: 1px solid gray;
+    border: 1px solid rgb(82, 79, 79);
     font-size: 30px;
     text-align: center;
 }
@@ -38,7 +38,7 @@ h1 {
 /* Main Container */
 #main {
     text-align: center;
-    background-color: rgb(0, 0, 0, .6);
+    background-color: rgba(82, 79, 79, 0.8);
 }
 
 /* Game instruction Text */
