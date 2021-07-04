@@ -38,5 +38,7 @@ h1 {
 
 /* Game instruction Text */
 #ins {
-    
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: dodgerblue;
+    font-size: 17px;
 }
