@@ -1,3 +1,7 @@
+body {
+    background-image: url("brickWall.jpeg");
+}
+
 /* Heading */
 h1 {
     color: orangered;
@@ -34,7 +38,7 @@ h1 {
 /* Main Container */
 #main {
     text-align: center;
-    background-color: rgb(75, 71, 71);
+    background-color: rgb(0, 0, 0, .6);
 }
 
 /* Game instruction Text */
